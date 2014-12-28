@@ -1,5 +1,5 @@
 # Glean
-** a fixture generator for Laravel **
+**A fixture generator for Laravel**
 
 This library provides a Laravel Artisan command which generates fixture files from the output of any object method.  It leverages Laravel's Service Container and PHP's Reflection capabilities to instantiate classes and call the desired object methods with the specified arguments. Data may be saved in raw PHP, YAML, JSON, or XML.
 
