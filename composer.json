@@ -1,0 +1,17 @@
+{
+    "name": "shift31/glean",
+    "description": "Provides a Laravel Artisan command to generates fixture files from the output of any object method",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*",
+        "jms/serializer": "~0.16",
+        "symfony/yaml": "~2.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Shift31\\Glean\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
